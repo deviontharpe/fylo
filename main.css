@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+section {
+  margin-bottom: 180px;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+ }
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+}
+.logo-gs {
+  padding-top: 30px;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 100%;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+  padding-bottom: 135px;
+}
+
+.gs h1 {
+  padding-bottom: 3rem;
+  font-size: 35px;
+  color: #343434;
+
+}
+.gs p{
+padding-bottom: 1.75rem;
+font-size: .85rem;
+color: #7e7e7e;
+width: 52%;
+align-self: flex-start;
+}
+.gs input{
+  background: #12D89F;
+  color: white;
+  width: 33%;
+  height: 4rem;
+  border: none;
+  border-radius: 3px;
+  font-weight: 600; 
+  font-size: 1rem;
+
+}
+
+.si-su-dsn {
+  display: flex;
+}
+
+.dsn,
+.si,
+.su {
+  align-self: flex-start;
+}
+
+.si {
+ position: absolute;
+ top: 32px;
+ right: 225px;
+}
+
+.su {
+position: absolute;
+ top: 30px;
+ right: 100px;
+}
+
+.si input{
+  background-color:rgba(95,90,170,0.0);
+  padding: 7px 15px;
+  border: none;
+  font-size: 15px;
+  align-self: center;
+}
+.su input {
+  border: none;
+  background: #12D89F;
+  font-size: 15px;
+  padding: 7px 15px;
+  border-radius: 3px;
+  align-self: center;
+}
+
+.si input,
+.su input{
+  color: white;
+  align-items: center;
+}
+#prsn-bg {
+  position: absolute;
+  top: 150px;
+  right: 150px;
+}
+
+.square-bg {
+  background: rgba(250,250,250);
+  content: '';
+  position: absolute;
+  height: 550px;
+  width: 100%;
+  z-index: -1;
+  transform: rotate(40deg) skewY(-30deg) scaleY(1.7);
+  border-radius: 50px;
+}
+
+section h3 {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #110e43;
+  font-size: 1.5rem;
+}
+
+section p {
+  text-align: center;
+  padding-bottom: 3.5rem;
+  color: #7e7e7e;
+}
+
+.boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.boxes .box1,
+.boxes .box2,
+.boxes .box3 {
+  font-weight: 400;
+}
+
+.boxes .box1 {
+  width: 33.3%;
+  align-self: center;
+  text-align: center;
+}
+.boxes .box2 {
+  width: 33.3%;
+  text-align: center;
+}
+.boxes .box3 {
+  width: 33.3%;
+  text-align: center;
+}
